@@ -1,0 +1,819 @@
+{
+  "categories": {
+    "Clothing": {
+      "items": [
+        "T-shirts",
+        "Long-sleeve shirts",
+        "Shorts",
+        "Pants/Jeans",
+        "Dress",
+        "Skirt",
+        "Underwear",
+        "Bras",
+        "Socks",
+        "Pajamas/Sleepwear",
+        "Jacket/Coat",
+        "Raincoat",
+        "Swimwear",
+        "Tank tops",
+        "Thermal underwear",
+        "Hoodie/Sweatshirt"
+      ],
+      "weather_specific": {
+        "hot": [
+          "Tank tops",
+          "Shorts",
+          "Light dress",
+          "Swimwear",
+          "Sun hat"
+        ],
+        "cold": [
+          "Thermal underwear",
+          "Heavy jacket",
+          "Gloves",
+          "Scarf",
+          "Warm hat"
+        ],
+        "rainy": [
+          "Raincoat",
+          "Waterproof shoes",
+          "Umbrella"
+        ]
+      }
+    },
+    "Toiletries": {
+      "items": [
+        "Toothbrush",
+        "Toothpaste",
+        "Shampoo",
+        "Conditioner",
+        "Body wash",
+        "Deodorant",
+        "Sunscreen",
+        "Moisturizer",
+        "Face wash",
+        "Razor",
+        "Shaving cream",
+        "Hairbrush/Comb",
+        "Lip balm",
+        "Makeup",
+        "Perfume/Cologne",
+        "Contact lens solution",
+        "Hand sanitizer",
+        "Nail clippers",
+        "Tweezers"
+      ]
+    },
+    "Tech": {
+      "items": [
+        "Smartphone",
+        "Chargers",
+        "Power bank",
+        "Laptop/Tablet",
+        "Camera",
+        "Headphones",
+        "Travel adapter",
+        "USB cables",
+        "External hard drive",
+        "Portable speaker",
+        "E-reader",
+        "Smartwatch",
+        "Lightning/USB-C cables"
+      ]
+    },
+    "Essentials": {
+      "items": [
+        "Passport",
+        "ID/Driver's license",
+        "Travel insurance",
+        "Credit/Debit cards",
+        "Cash",
+        "Flight tickets",
+        "Hotel confirmations",
+        "Emergency contacts",
+        "Prescription medications",
+        "First aid kit",
+        "Travel pillow",
+        "Eye mask",
+        "Earplugs",
+        "Reusable water bottle",
+        "Snacks",
+        "Luggage locks"
+      ]
+    },
+    "Documents": {
+      "items": [
+        "Passport",
+        "Visa",
+        "Travel insurance",
+        "Flight confirmations",
+        "Hotel bookings",
+        "Emergency contacts",
+        "Medical information",
+        "Driver's license",
+        "Student ID",
+        "Work permits",
+        "Vaccination certificates"
+      ]
+    }
+  },
+  "tripPurposes": {
+    "Business": {
+      "additional_items": [
+        "Business cards",
+        "Laptop",
+        "Presentation materials",
+        "Formal wear",
+        "Dress shoes",
+        "Blazer",
+        "Ties",
+        "Professional documents"
+      ]
+    },
+    "Vacation": {
+      "additional_items": [
+        "Camera",
+        "Guidebooks",
+        "Casual wear",
+        "Entertainment items",
+        "Books",
+        "Games",
+        "Comfortable shoes"
+      ]
+    },
+    "Hiking": {
+      "additional_items": [
+        "Hiking boots",
+        "Backpack",
+        "Water bottles",
+        "Trail snacks",
+        "First aid kit",
+        "Map/GPS",
+        "Hiking poles",
+        "Weather-appropriate gear",
+        "Headlamp",
+        "Multi-tool",
+        "Bug spray"
+      ]
+    },
+    "Beach": {
+      "additional_items": [
+        "Swimwear",
+        "Beach towel",
+        "Sunscreen",
+        "Flip-flops",
+        "Sunglasses",
+        "Beach bag",
+        "Water shoes",
+        "Snorkel gear",
+        "Beach umbrella",
+        "Waterproof phone case"
+      ]
+    }
+  },
+  "transportModes": {
+    "Flight": {
+      "restrictions": [
+        "Liquid restrictions",
+        "Weight limits",
+        "Size restrictions"
+      ],
+      "tips": [
+        "Check airline baggage policy",
+        "Pack essentials in carry-on"
+      ],
+      "weight_limits": {
+        "Economy": "23kg (50lbs)",
+        "Business": "32kg (70lbs)",
+        "First": "32kg (70lbs)"
+      }
+    },
+    "Train": {
+      "restrictions": [
+        "Usually more flexible than flights"
+      ],
+      "tips": [
+        "Comfortable for long journeys",
+        "Easy access to luggage"
+      ]
+    },
+    "Bus": {
+      "restrictions": [
+        "Limited luggage space"
+      ],
+      "tips": [
+        "Pack light",
+        "Keep essentials accessible"
+      ]
+    },
+    "Car": {
+      "restrictions": [
+        "Space limited by vehicle size"
+      ],
+      "tips": [
+        "Can pack more items",
+        "Easy access during journey"
+      ]
+    }
+  },
+  "weatherRecommendations": {
+    "sunny": {
+      "clothing": [
+        "Light clothing",
+        "Sun hat",
+        "Sunglasses",
+        "Shorts",
+        "T-shirts"
+      ],
+      "accessories": [
+        "Sunscreen",
+        "Water bottle",
+        "Light scarf"
+      ]
+    },
+    "rainy": {
+      "clothing": [
+        "Raincoat",
+        "Waterproof shoes",
+        "Quick-dry clothing"
+      ],
+      "accessories": [
+        "Umbrella",
+        "Waterproof bag",
+        "Extra socks"
+      ]
+    },
+    "cold": {
+      "clothing": [
+        "Warm jacket",
+        "Thermal underwear",
+        "Gloves",
+        "Scarf",
+        "Warm hat"
+      ],
+      "accessories": [
+        "Hand warmers",
+        "Lip balm",
+        "Moisturizer"
+      ]
+    },
+    "hot": {
+      "clothing": [
+        "Light, breathable fabrics",
+        "Minimal layers",
+        "Sun protection"
+      ],
+      "accessories": [
+        "Electrolyte drinks",
+        "Cooling towel",
+        "Portable fan"
+      ]
+    }
+  },
+  "locationRecommendations": {
+    "Kerala": [
+      "Rain gear",
+      "Mosquito repellent",
+      "Light cotton clothes"
+    ],
+    "Manali": [
+      "Winter wear",
+      "Warm layers",
+      "Sturdy shoes"
+    ],
+    "Goa": [
+      "Beach wear",
+      "Sunscreen",
+      "Light clothes"
+    ],
+    "Rajasthan": [
+      "Sun protection",
+      "Light clothes",
+      "Water bottle"
+    ]
+  },
+  "accommodations": {
+    "Mumbai, India": {
+      "hotels": [
+        {
+          "name": "The Taj Mahal Palace",
+          "type": "Luxury Hotel",
+          "rating": 4.8,
+          "price_range": "₹25,000 - ₹50,000",
+          "amenities": ["Spa", "Pool", "Fine Dining", "Business Center", "Airport Shuttle"],
+          "location": "Colaba",
+          "description": "Iconic luxury hotel with stunning Gateway of India views",
+          "booking_url": "https://booking.com/taj-mahal-palace-mumbai"
+        },
+        {
+          "name": "ITC Maratha",
+          "type": "Business Hotel",
+          "rating": 4.6,
+          "price_range": "₹15,000 - ₹30,000",
+          "amenities": ["Business Center", "Conference Rooms", "Gym", "Spa", "Multiple Restaurants"],
+          "location": "Andheri East",
+          "description": "Premium business hotel near airport with excellent facilities",
+          "booking_url": "https://booking.com/itc-maratha-mumbai"
+        },
+        {
+          "name": "Hotel Suba Palace",
+          "type": "Mid-range Hotel",
+          "rating": 4.2,
+          "price_range": "₹8,000 - ₹15,000",
+          "amenities": ["Restaurant", "Room Service", "WiFi", "AC", "Parking"],
+          "location": "Marine Drive",
+          "description": "Comfortable hotel with great location and sea views",
+          "booking_url": "https://booking.com/suba-palace-mumbai"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Backpacker Panda",
+          "type": "Hostel",
+          "rating": 4.3,
+          "price_range": "₹800 - ₹1,500",
+          "amenities": ["Shared Kitchen", "Common Room", "WiFi", "Laundry", "Tour Desk"],
+          "location": "Colaba",
+          "description": "Budget-friendly hostel perfect for backpackers",
+          "booking_url": "https://hostelworld.com/backpacker-panda-mumbai"
+        }
+      ]
+    },
+    "Goa, India": {
+      "hotels": [
+        {
+          "name": "The Leela Goa",
+          "type": "Resort",
+          "rating": 4.7,
+          "price_range": "₹20,000 - ₹40,000",
+          "amenities": ["Private Beach", "Spa", "Multiple Pools", "Water Sports", "Kids Club"],
+          "location": "Cavelossim Beach",
+          "description": "Luxury beachfront resort with pristine private beach",
+          "booking_url": "https://booking.com/leela-goa"
+        },
+        {
+          "name": "Taj Exotica Resort & Spa",
+          "type": "Resort",
+          "rating": 4.6,
+          "price_range": "₹18,000 - ₹35,000",
+          "amenities": ["Beach Access", "Spa", "Pool", "Golf Course", "Multiple Restaurants"],
+          "location": "Benaulim Beach",
+          "description": "Elegant resort with world-class spa and beach access",
+          "booking_url": "https://booking.com/taj-exotica-goa"
+        },
+        {
+          "name": "Hotel Fidalgo",
+          "type": "Mid-range Hotel",
+          "rating": 4.1,
+          "price_range": "₹6,000 - ₹12,000",
+          "amenities": ["Restaurant", "Pool", "WiFi", "Parking", "Tour Desk"],
+          "location": "Panjim",
+          "description": "Comfortable hotel in the heart of Panjim",
+          "booking_url": "https://booking.com/hotel-fidalgo-goa"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Goa Backpackers",
+          "type": "Hostel",
+          "rating": 4.4,
+          "price_range": "₹600 - ₹1,200",
+          "amenities": ["Beach Access", "Common Room", "WiFi", "Bike Rental", "Bar"],
+          "location": "Anjuna Beach",
+          "description": "Vibrant hostel near famous Anjuna Beach",
+          "booking_url": "https://hostelworld.com/goa-backpackers"
+        }
+      ]
+    },
+    "Delhi, India": {
+      "hotels": [
+        {
+          "name": "The Oberoi New Delhi",
+          "type": "Luxury Hotel",
+          "rating": 4.8,
+          "price_range": "₹22,000 - ₹45,000",
+          "amenities": ["Spa", "Pool", "Fine Dining", "Business Center", "Concierge"],
+          "location": "Connaught Place",
+          "description": "Luxury hotel in the heart of Delhi with impeccable service",
+          "booking_url": "https://booking.com/oberoi-new-delhi"
+        },
+        {
+          "name": "Hotel The Park",
+          "type": "Business Hotel",
+          "rating": 4.3,
+          "price_range": "₹12,000 - ₹25,000",
+          "amenities": ["Business Center", "Gym", "Spa", "Restaurant", "WiFi"],
+          "location": "Connaught Place",
+          "description": "Modern business hotel with excellent connectivity",
+          "booking_url": "https://booking.com/hotel-park-delhi"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Zostel Delhi",
+          "type": "Hostel",
+          "rating": 4.2,
+          "price_range": "₹800 - ₹1,500",
+          "amenities": ["Common Room", "WiFi", "Laundry", "Tour Desk", "Kitchen"],
+          "location": "Paharganj",
+          "description": "Clean and comfortable hostel near railway station",
+          "booking_url": "https://hostelworld.com/zostel-delhi"
+        }
+      ]
+    },
+    "Kerala, India": {
+      "hotels": [
+        {
+          "name": "Kumarakom Lake Resort",
+          "type": "Resort",
+          "rating": 4.7,
+          "price_range": "₹18,000 - ₹35,000",
+          "amenities": ["Backwater Views", "Spa", "Pool", "Boat Rides", "Cultural Shows"],
+          "location": "Kumarakom",
+          "description": "Luxury backwater resort with traditional Kerala architecture",
+          "booking_url": "https://booking.com/kumarakom-lake-resort"
+        },
+        {
+          "name": "The Leela Kovalam",
+          "type": "Resort",
+          "rating": 4.6,
+          "price_range": "₹15,000 - ₹30,000",
+          "amenities": ["Beach Access", "Spa", "Pool", "Ayurveda Center", "Restaurants"],
+          "location": "Kovalam Beach",
+          "description": "Beachfront resort with traditional Ayurvedic treatments",
+          "booking_url": "https://booking.com/leela-kovalam"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Kochi Backpackers",
+          "type": "Hostel",
+          "rating": 4.3,
+          "price_range": "₹700 - ₹1,300",
+          "amenities": ["Common Room", "WiFi", "Tour Desk", "Bike Rental", "Kitchen"],
+          "location": "Fort Kochi",
+          "description": "Historic hostel in the charming Fort Kochi area",
+          "booking_url": "https://hostelworld.com/kochi-backpackers"
+        }
+      ]
+    },
+    "Manali, India": {
+      "hotels": [
+        {
+          "name": "The Himalayan",
+          "type": "Resort",
+          "rating": 4.5,
+          "price_range": "₹12,000 - ₹25,000",
+          "amenities": ["Mountain Views", "Spa", "Restaurant", "Adventure Activities", "Fireplace"],
+          "location": "Old Manali",
+          "description": "Mountain resort with stunning Himalayan views",
+          "booking_url": "https://booking.com/himalayan-manali"
+        },
+        {
+          "name": "Hotel Snow Valley Resorts",
+          "type": "Resort",
+          "rating": 4.2,
+          "price_range": "₹8,000 - ₹18,000",
+          "amenities": ["Mountain Views", "Restaurant", "Adventure Desk", "Parking", "WiFi"],
+          "location": "Manali",
+          "description": "Comfortable resort with adventure activity arrangements",
+          "booking_url": "https://booking.com/snow-valley-manali"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Manali Backpackers",
+          "type": "Hostel",
+          "rating": 4.4,
+          "price_range": "₹600 - ₹1,200",
+          "amenities": ["Common Room", "WiFi", "Adventure Desk", "Bike Rental", "Fireplace"],
+          "location": "Old Manali",
+          "description": "Cozy hostel perfect for adventure seekers",
+          "booking_url": "https://hostelworld.com/manali-backpackers"
+        }
+      ]
+    },
+    "Rajasthan, India": {
+      "hotels": [
+        {
+          "name": "The Oberoi Udaivilas",
+          "type": "Luxury Resort",
+          "rating": 4.9,
+          "price_range": "₹35,000 - ₹70,000",
+          "amenities": ["Lake Views", "Spa", "Pool", "Cultural Shows", "Fine Dining"],
+          "location": "Udaipur",
+          "description": "Palace resort with breathtaking lake and palace views",
+          "booking_url": "https://booking.com/oberoi-udaivilas"
+        },
+        {
+          "name": "Rambagh Palace",
+          "type": "Palace Hotel",
+          "rating": 4.8,
+          "price_range": "₹25,000 - ₹50,000",
+          "amenities": ["Palace Architecture", "Spa", "Pool", "Fine Dining", "Cultural Tours"],
+          "location": "Jaipur",
+          "description": "Former royal palace converted into luxury hotel",
+          "booking_url": "https://booking.com/rambagh-palace-jaipur"
+        }
+      ],
+      "hostels": [
+        {
+          "name": "Zostel Jodhpur",
+          "type": "Hostel",
+          "rating": 4.3,
+          "price_range": "₹800 - ₹1,500",
+          "amenities": ["Common Room", "WiFi", "Tour Desk", "Bike Rental", "Cultural Activities"],
+          "location": "Jodhpur",
+          "description": "Vibrant hostel in the blue city with cultural activities",
+          "booking_url": "https://hostelworld.com/zostel-jodhpur"
+        }
+      ]
+    }
+  },
+  "touristAttractions": {
+    "Mumbai, India": [
+      {
+        "name": "Gateway of India",
+        "type": "Monument",
+        "rating": 4.3,
+        "description": "Iconic arch monument and popular meeting point",
+        "best_time": "Early morning or evening",
+        "duration": "1-2 hours",
+        "entry_fee": "Free",
+        "highlights": ["Historical significance", "Boat rides to Elephanta Caves", "Photography spot"]
+      },
+      {
+        "name": "Marine Drive",
+        "type": "Scenic Walkway",
+        "rating": 4.5,
+        "description": "Beautiful curved boulevard along the Arabian Sea",
+        "best_time": "Sunset",
+        "duration": "1-3 hours",
+        "entry_fee": "Free",
+        "highlights": ["Sunset views", "Street food", "Evening walks", "Queen's Necklace"]
+      },
+      {
+        "name": "Elephanta Caves",
+        "type": "UNESCO World Heritage",
+        "rating": 4.2,
+        "description": "Ancient rock-cut caves dedicated to Lord Shiva",
+        "best_time": "Morning",
+        "duration": "3-4 hours",
+        "entry_fee": "₹40 (Indian), ₹600 (Foreign)",
+        "highlights": ["Ancient sculptures", "Boat ride", "Historical significance", "Cave architecture"]
+      },
+      {
+        "name": "Chhatrapati Shivaji Terminus",
+        "type": "UNESCO World Heritage",
+        "rating": 4.4,
+        "description": "Historic railway station with Victorian Gothic architecture",
+        "best_time": "Any time",
+        "duration": "30 minutes - 1 hour",
+        "entry_fee": "Free (viewing from outside)",
+        "highlights": ["Architecture", "Historical importance", "Photography", "UNESCO site"]
+      }
+    ],
+    "Goa, India": [
+      {
+        "name": "Baga Beach",
+        "type": "Beach",
+        "rating": 4.3,
+        "description": "Popular beach known for water sports and nightlife",
+        "best_time": "November to March",
+        "duration": "Half day to full day",
+        "entry_fee": "Free",
+        "highlights": ["Water sports", "Beach shacks", "Nightlife", "Shopping"]
+      },
+      {
+        "name": "Old Goa Churches",
+        "type": "UNESCO World Heritage",
+        "rating": 4.5,
+        "description": "Historic Portuguese churches and cathedrals",
+        "best_time": "Morning",
+        "duration": "2-3 hours",
+        "entry_fee": "Free",
+        "highlights": ["Basilica of Bom Jesus", "Se Cathedral", "Historical significance", "Architecture"]
+      },
+      {
+        "name": "Dudhsagar Falls",
+        "type": "Waterfall",
+        "rating": 4.6,
+        "description": "Magnificent four-tiered waterfall in the Western Ghats",
+        "best_time": "Monsoon season (June-September)",
+        "duration": "Full day",
+        "entry_fee": "₹20",
+        "highlights": ["Scenic beauty", "Trekking", "Photography", "Nature"]
+      },
+      {
+        "name": "Anjuna Flea Market",
+        "type": "Market",
+        "rating": 4.2,
+        "description": "Famous weekly flea market with local crafts and souvenirs",
+        "best_time": "Wednesday mornings",
+        "duration": "2-4 hours",
+        "entry_fee": "Free",
+        "highlights": ["Local crafts", "Souvenirs", "Street food", "Cultural experience"]
+      }
+    ],
+    "Delhi, India": [
+      {
+        "name": "Red Fort",
+        "type": "UNESCO World Heritage",
+        "rating": 4.4,
+        "description": "Historic fort complex and former residence of Mughal emperors",
+        "best_time": "Morning",
+        "duration": "2-3 hours",
+        "entry_fee": "₹50 (Indian), ₹600 (Foreign)",
+        "highlights": ["Mughal architecture", "Historical significance", "Light and sound show", "Museum"]
+      },
+      {
+        "name": "India Gate",
+        "type": "Monument",
+        "rating": 4.3,
+        "description": "War memorial arch and popular gathering spot",
+        "best_time": "Evening",
+        "duration": "1-2 hours",
+        "entry_fee": "Free",
+        "highlights": ["War memorial", "Evening lights", "Photography", "Street food"]
+      },
+      {
+        "name": "Lotus Temple",
+        "type": "Religious Site",
+        "rating": 4.5,
+        "description": "Bahá'í House of Worship with unique lotus-shaped architecture",
+        "best_time": "Morning or evening",
+        "duration": "1-2 hours",
+        "entry_fee": "Free",
+        "highlights": ["Unique architecture", "Peaceful atmosphere", "Photography", "Meditation"]
+      },
+      {
+        "name": "Chandni Chowk",
+        "type": "Historic Market",
+        "rating": 4.2,
+        "description": "Historic market area with traditional shops and street food",
+        "best_time": "Morning",
+        "duration": "2-4 hours",
+        "entry_fee": "Free",
+        "highlights": ["Street food", "Traditional shopping", "Cultural experience", "Historical significance"]
+      }
+    ],
+    "Kerala, India": [
+      {
+        "name": "Backwaters of Alleppey",
+        "type": "Natural Wonder",
+        "rating": 4.7,
+        "description": "Network of canals, rivers, and lakes perfect for houseboat cruises",
+        "best_time": "October to March",
+        "duration": "1-2 days",
+        "entry_fee": "₹6,000-15,000 (houseboat)",
+        "highlights": ["Houseboat cruise", "Scenic beauty", "Local cuisine", "Village life"]
+      },
+      {
+        "name": "Munnar Tea Plantations",
+        "type": "Natural Landscape",
+        "rating": 4.6,
+        "description": "Rolling hills covered with tea plantations and spice gardens",
+        "best_time": "September to May",
+        "duration": "2-3 days",
+        "entry_fee": "₹50-100 (plantation tours)",
+        "highlights": ["Tea plantations", "Spice gardens", "Scenic views", "Plantation tours"]
+      },
+      {
+        "name": "Kovalam Beach",
+        "type": "Beach",
+        "rating": 4.4,
+        "description": "Famous beach with lighthouse and Ayurvedic treatments",
+        "best_time": "October to March",
+        "duration": "Half day to full day",
+        "entry_fee": "Free",
+        "highlights": ["Beach activities", "Lighthouse", "Ayurvedic treatments", "Sunset views"]
+      },
+      {
+        "name": "Periyar Wildlife Sanctuary",
+        "type": "Wildlife Sanctuary",
+        "rating": 4.3,
+        "description": "Famous for elephant sightings and boat safaris",
+        "best_time": "October to June",
+        "duration": "Full day",
+        "entry_fee": "₹65 (Indian), ₹500 (Foreign)",
+        "highlights": ["Wildlife spotting", "Boat safari", "Nature trails", "Elephant sightings"]
+      }
+    ],
+    "Manali, India": [
+      {
+        "name": "Rohtang Pass",
+        "type": "Mountain Pass",
+        "rating": 4.5,
+        "description": "High mountain pass offering stunning views and snow activities",
+        "best_time": "May to October",
+        "duration": "Full day",
+        "entry_fee": "₹550 (permit required)",
+        "highlights": ["Snow activities", "Mountain views", "Photography", "Adventure sports"]
+      },
+      {
+        "name": "Solang Valley",
+        "type": "Adventure Destination",
+        "rating": 4.4,
+        "description": "Popular destination for adventure sports and activities",
+        "best_time": "May to October",
+        "duration": "Half day to full day",
+        "entry_fee": "₹200-500 (activities)",
+        "highlights": ["Paragliding", "Skiing", "Zorbing", "Cable car"]
+      },
+      {
+        "name": "Hadimba Temple",
+        "type": "Religious Site",
+        "rating": 4.2,
+        "description": "Ancient temple dedicated to Goddess Hadimba",
+        "best_time": "Morning",
+        "duration": "1-2 hours",
+        "entry_fee": "₹30",
+        "highlights": ["Ancient architecture", "Religious significance", "Cedar forest", "Photography"]
+      },
+      {
+        "name": "Manu Temple",
+        "type": "Religious Site",
+        "rating": 4.1,
+        "description": "Ancient temple dedicated to Sage Manu",
+        "best_time": "Morning",
+        "duration": "1 hour",
+        "entry_fee": "Free",
+        "highlights": ["Religious significance", "Ancient architecture", "Peaceful atmosphere", "Historical importance"]
+      }
+    ],
+    "Rajasthan, India": [
+      {
+        "name": "Amber Fort",
+        "type": "Historic Fort",
+        "rating": 4.6,
+        "description": "Magnificent fort with stunning architecture and elephant rides",
+        "best_time": "Morning",
+        "duration": "3-4 hours",
+        "entry_fee": "₹100 (Indian), ₹500 (Foreign)",
+        "highlights": ["Architecture", "Elephant rides", "Light and sound show", "Palace complex"]
+      },
+      {
+        "name": "City Palace, Udaipur",
+        "type": "Palace Complex",
+        "rating": 4.5,
+        "description": "Beautiful palace complex with lake views and museums",
+        "best_time": "Morning",
+        "duration": "2-3 hours",
+        "entry_fee": "₹300 (Indian), ₹500 (Foreign)",
+        "highlights": ["Palace architecture", "Lake views", "Museums", "Cultural shows"]
+      },
+      {
+        "name": "Jaisalmer Fort",
+        "type": "Living Fort",
+        "rating": 4.4,
+        "description": "Golden fort with living quarters and stunning architecture",
+        "best_time": "Morning or evening",
+        "duration": "2-3 hours",
+        "entry_fee": "₹50 (Indian), ₹250 (Foreign)",
+        "highlights": ["Golden architecture", "Living fort", "Havelis", "Desert views"]
+      },
+      {
+        "name": "Pushkar Camel Fair",
+        "type": "Cultural Festival",
+        "rating": 4.7,
+        "description": "Famous camel trading fair with cultural performances",
+        "best_time": "November (specific dates vary)",
+        "duration": "2-3 days",
+        "entry_fee": "₹100-500",
+        "highlights": ["Camel trading", "Cultural performances", "Local crafts", "Religious significance"]
+      }
+    ]
+  },
+  "demoTrips": [
+    {
+      "id": 1,
+      "title": "Business Trip to Mumbai",
+      "destination": "Mumbai, India",
+      "startDate": "2025-09-15",
+      "endDate": "2025-09-18",
+      "duration": 3,
+      "transport": "Flight",
+      "purpose": "Business",
+      "weather": {
+        "temp": 28,
+        "condition": "humid",
+        "forecast": "partly cloudy"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Beach Vacation in Goa",
+      "destination": "Goa, India",
+      "startDate": "2025-10-01",
+      "endDate": "2025-10-07",
+      "duration": 6,
+      "transport": "Flight",
+      "purpose": "Beach",
+      "weather": {
+        "temp": 32,
+        "condition": "sunny",
+        "forecast": "clear skies"
+      }
+    }
+  ]
+}
